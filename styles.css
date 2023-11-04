@@ -1,0 +1,66 @@
+body {
+  background-image: linear-gradient(
+    to top,
+    rgba(255, 0, 0, 0),
+    rgba(130, 132, 241, 0.5)
+  );
+  margin: 0;
+  background-repeat: no-repeat;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+  margin: 10px;
+}
+
+h1 {
+  margin: 20px;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 10px;
+  text-shadow: 5px 0 yellow;
+  font-size: 4.5rem;
+  color: #001524;
+  text-align: center;
+}
+
+p {
+  font-size: 2rem;
+  color: #192655;
+  text-shadow: 2px 0 #f94c10;
+  font-family: "Play", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.bottom {
+  padding-top: 30px;
+}
+
+.butn {
+  background: #c70039;
+  font-family: "Source Code Pro", monospace;
+  border-radius: 10px;
+  border: 2px solid yellow;
+  color: white;
+  font-size: 30px;
+  padding: 16px 25px 16px 25px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: yellow;
+  color: #001524;
+  border: 2px solid #001524;
+  text-decoration: none;
+  cursor: pointer;
+}

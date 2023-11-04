@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice Game</title>
+    <link rel="shortcut icon" href="18064225661602904702.svg" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Play&family=Playfair+Display:ital@1&family=Source+Code+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Source+Code+Pro&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Let's Play</h1>
+
+      <div class="dice">
+        <p class="Player01">Player 01</p>
+        <img class="img1" src="dice6.png" />
+      </div>
+
+      <div class="dice">
+        <p class="Player02">Player 02</p>
+        <img class="img2" src="dice6.png" />
+      </div>
+    </div>
+
+    <div class="container bottom">
+      <button type="button" class="butn" onClick="rollTheDice()">
+        Roll the Dice
+      </button>
+    </div>
+    <div class="container bottom">
+      <button type="button" class="butn" onClick="editNames()">
+        Edit Names
+      </button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
